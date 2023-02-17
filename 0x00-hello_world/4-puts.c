@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - this is the main functioWrite a C program that prints exactly "Programming is like building a multilingual puzzle
+ * main - C program that prints exactly what it is given
  *
  * Return: always 0
  */
