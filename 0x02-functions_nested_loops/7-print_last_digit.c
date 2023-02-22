@@ -5,20 +5,16 @@
  *
  * @num: input number as an integer
  *
- * Return: last digit
+ * Return: k
  */
-int print_last_digit(int i)
-{
-	int num;
 
-	num = i % 10;
-	if (num < 0)
-	{
-		_putchar(-num + 48);
-		return (-num);
-	}
-	else
-	{
-		_putchar(num +48);
-	}
+int print_last_digit(int n)
+{
+	int k;
+
+	k = n % 10;
+	if (n < 0)
+		k = -k;
+	return (k);
+	_putchar('\n');
 }
