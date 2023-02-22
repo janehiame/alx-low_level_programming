@@ -2,10 +2,9 @@
 /**
  * _isalpha - function that checks for alphabets
  *
- * @c: parameter to be checked
+ * @c: the character is ASCII code
  *
- * Return:n1 if it is an alphabet
- * and 0 if it is otherwise
+ * Return: 1 for letters, 0 if otherwise
  */
 
 int _isalpha(int c)
