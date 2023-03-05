@@ -4,20 +4,18 @@
  * _memcpy - copies memory area from src to dest
  * @dest: destination
  * @src: source
- * @n: number of bytes
+ * @n: max bytes to use
  *
- * Return: copied memory with n byted changed
+ * Return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int r = 0;
-	int i = n;
+	unsigned int i;
 
-	for (int r = 0;r < i; r++;)
+	for (i = 0; n > 0; i++, r--)
 	{
-		dest[r] = src[r];
-		n--;
+		dest[i] = src[i]
 	}
 	return (dest);
 }
